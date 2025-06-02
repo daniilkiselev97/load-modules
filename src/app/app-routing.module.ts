@@ -8,8 +8,8 @@ const routes: Routes = [
 	{
 		path: 'reports', loadChildren: () => import('./features/reports/reports.module').then(m => m.ReportsModule)
 	},
-	{ path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-	{ path: '**', redirectTo: 'dashboard' } 
+	// { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+	// { path: '**', redirectTo: 'dashboard' }
 ];
 
 @NgModule({
